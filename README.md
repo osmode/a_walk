@@ -23,7 +23,7 @@ sudo python3 log_gps.py
 sudo apt-get install gpsbabel
 ```
 
-### 4. Convert file from step to to GPX file 
+### 4. Convert file from step to GPX file 
 ```
 gpsbabel -i csv -f way.csv -o gpx -F way.gpx
 ```
